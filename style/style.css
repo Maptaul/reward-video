@@ -148,3 +148,94 @@ body{
     width: 349.16px;
     height: 464.65px;
 }
+/* new park section start here  */
+.address-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 214, 214), rgb(240, 229, 223));
+  }
+  .address-content{
+    width: 649px;
+    height: 350px;
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+    padding: 30px;
+  }
+  .red{
+    color: red;
+  }
+  .btn{
+    width: 167px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    margin-top: 30px;
+    border: none;
+  }
+
+  /* best offer style */
+
+.best-offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.best-offer-left-content{
+    width: 30%;
+    /* border: 2px solid red; */
+}
+.left-title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.left-title2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left-descriptio{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.best-offer-middle-image{
+    border: 15px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.right-title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: red;
+}
+
+.right-description{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
